@@ -1,13 +1,13 @@
 ---
 title: "Mini-Project: Meteorite Landings"
-output:
-  html_document:
-    df_print: paged
+format:
+  html:
+    df-print: paged
 ---
 
-```{r setup, include=FALSE}
-# knit options
-knitr::opts_chunk$set(echo = TRUE)
+```{r}
+#| label: setup
+#| include: false
 options(styler.save_after_styling = TRUE)
 ```
 
